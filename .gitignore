@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Model files
+models/*.h5
+models/*.hdf5
+models/*.pb
+models/*.ckpt*
+models/*.index
+models/checkpoints/
+
+# TensorFlow Lite models
+tflite_models/*.tflite
+
+# Dataset
+dataset/**/*.jpg
+dataset/**/*.jpeg
+dataset/**/*.png
+dataset/**/*.bmp
+dataset/**/*.gif
+!dataset/**/.gitkeep
+
+# Results
+results/*.png
+results/*.csv
+results/*.json
+!results/.gitkeep
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Documentation builds
+docs/_build/
+site/
+

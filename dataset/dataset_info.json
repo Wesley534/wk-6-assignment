@@ -1,0 +1,15 @@
+{
+  "classes": [
+    "plastic",
+    "paper",
+    "glass",
+    "metal",
+    "cardboard"
+  ],
+  "image_size": 224,
+  "channels": 3,
+  "train_dir": "dataset/train",
+  "test_dir": "dataset/test",
+  "val_dir": "dataset/val",
+  "total_classes": 5
+}
